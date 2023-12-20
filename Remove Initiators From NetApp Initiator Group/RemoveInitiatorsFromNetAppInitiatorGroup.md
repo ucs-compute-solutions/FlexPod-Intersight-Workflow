@@ -11,15 +11,15 @@ that the initiators were given due to parallel execution.
 ![](../images/RemoveInitiatorsFromNetAppInitiatorGroup/87f7c33d4f670c239243cb5c5359261bd44becec.png)
 
 ## Workflow inputs
-\* indicates the input is required
+The following are required inputs: 
 
-**Storage Device\***
+- **Storage Device\***
 
-**Storage Virtual Machine\***
+- **Storage Virtual Machine\***
 
-**Initiator Group\***
+- **Initiator Group\***
 
-**Initiators\*:** The initiators to add to the initiator group. Use
+- **Initiators\*:** The initiators to add to the initiator group. Use
 Fibre Channel (FC) world wide port names (WWPNs), iSCSI qualified names
 (IQNs), and/or iSCSI extended unique identifiers (EUIs) to identify host
 initiators.

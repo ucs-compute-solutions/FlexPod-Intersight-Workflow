@@ -13,39 +13,39 @@ volume and a NAS datastore of the same name.
 
 ### Hypervisor inputs:
 
-**Hypervisor Manager\*:** Hypervisor manager managing the cluster in the
+- **Hypervisor Manager\*:** Hypervisor manager managing the cluster in the
 datacenter.
 
-**Datacenter\*:** Datacenter associated with the cluster where the
+- **Datacenter\*:** Datacenter associated with the cluster where the
 datastore will be hosted.
 
-**Cluster:** Cluster on which the datastore will be hosted.
+- **Cluster:** Cluster on which the datastore will be hosted.
 
-**Host:** Host on which the datastore will be hosted. If the cluster is
+- **Host:** Host on which the datastore will be hosted. If the cluster is
 specified, the host parameter will be ignored.
 
-**Datastore Name\*:** Name of the datastore (which will also be the
+- **Datastore Name\*:** Name of the datastore (which will also be the
 volume name)
 
-**Datastore Capacity\*:** Size of the datastore
+- **Datastore Capacity\*:** Size of the datastore
 
-**Datastore Type\*:** Type of the datastore (NFS version 3 or 4.1)
+- **Datastore Type\*:** Type of the datastore (NFS version 3 or 4.1)
 
-**Security Type\*:** Security for the NFS datastore. Kerberos support is
+- **Security Type\*:** Security for the NFS datastore. Kerberos support is
 enabled in NFS 4.1 only. Default is the basic AUTH_SYS security.
 
-**Access Mode\*:** Access mode for the NFS server
+- **Access Mode\*:** Access mode for the NFS server
 
 ### Storage inputs:
 
-**Storage Device\***
+- **Storage Device\***
 
-**Storage Virtual Machine\***
+- **Storage Virtual Machine\***
 
-**Distribute volume data across cluster:** Select this checkbox to
+- **Distribute volume data across cluster:** Select this checkbox to
 provision a FlexGroup volume.
 
-**Performance Service Level\*:** Performance service levels represent
+- **Performance Service Level\*:** Performance service levels represent
 the performance expectations of the clients or applications using the
 storage system. The selection of a performance service level indicates
 the location of the new storage in the storage device and the QoS policy
@@ -58,7 +58,7 @@ valid for the storage platform, the task will fail with an error
 message. Use the 'None' option if the storage virtual machine already
 has a QoS policy group.
 
-**Export Policy\*:** You can select an existing export policy or create
+- **Export Policy\*:** You can select an existing export policy or create
 a new export policy. To create a new export policy, select the 'New
 Export Policy' checkbox, and provide the client match. Client match is a
 match string specifying the client or clients to grant access to in the
@@ -66,7 +66,7 @@ export policy rule. The new export policy uses NFS for access protocol
 and sys for read-only access rule, read-write access rule, and superuser
 security type.
 
-**Enable Local Snapshot Copies:** Select this checkbox to enable local
+- **Enable Local Snapshot Copies:** Select this checkbox to enable local
 snapshot copies using the default snapshot policy.
 
 ## Example workflow execution
@@ -95,8 +95,9 @@ snapshot copies using the default snapshot policy.
 
 4.  If you want to provision a FlexGroup volume, select 'Distribute
     volume data across cluster'. Otherwise, leave it unselected. Select
-    the desired performance service level. **NOTE:** If the selected
-    performance service level is not valid for the storage platform, the
+    the desired performance service level.
+
+    **NOTE:** If the selected performance service level is not valid for the storage platform, the
     task will fail with an error message.
 
 ![](../images/NewNASDatastoreUsingNetAppSmartVolume/55eee0e984bc4bb6d9594ef04f432f9cd729d04c.png)

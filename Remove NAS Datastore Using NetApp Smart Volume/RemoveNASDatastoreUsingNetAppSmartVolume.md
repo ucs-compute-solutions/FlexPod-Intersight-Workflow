@@ -16,22 +16,22 @@ cluster.
 
 ### Hypervisor inputs:
 
-**Hypervisor Manager\*:** Hypervisor manager managing the cluster in the
+- **Hypervisor Manager\*:** Hypervisor manager managing the cluster in the
 datacenter.
 
-**Datacenter\*:** Datacenter associated with the cluster where the
+- **Datacenter\*:** Datacenter associated with the cluster where the
 datastore is hosted.
 
-**Cluster:** Cluster on which the datastore is hosted.
+- **Cluster:** Cluster on which the datastore is hosted.
 
-**Host:** Host on which the datastore is hosted. If the cluster is
+- **Host:** Host on which the datastore is hosted. If the cluster is
 specified, the host parameter will be ignored.
 
-**Datastore\*:** Name of the datastore to be removed
+- **Datastore\*:** Name of the datastore to be removed
 
 ### Storage inputs:
 
-**Storage Device\***
+- **Storage Device\***
 
 ## Example workflow execution
 

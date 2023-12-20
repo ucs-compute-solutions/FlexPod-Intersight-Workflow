@@ -9,20 +9,20 @@ The New NetApp Initiator Group workflow creates a new initiator group.
 ## Workflow inputs
 \* indicates the input is required
 
-**Storage Device\***
+- **Storage Device\***
 
-**Storage Virtual Machine\***
+- **Storage Virtual Machine\***
 
-**Initiator Group Name\*:** The name of the initiator group.
+- **Initiator Group Name\*:** The name of the initiator group.
 
-**Protocol:** The protocol(s) supported by the initiator group (iSCSI,
+- **Protocol:** The protocol(s) supported by the initiator group (iSCSI,
 FCP, or Mixed).
 
-**Operating System\*:** The host operating system of the initiator
+- **Operating System\*:** The host operating system of the initiator
 group. All initiators in the group should be hosts of the same operating
 system. The default is VMware.
 
-**Initiators:** The initiator(s) to add to the new initiator group. Use
+- **Initiators:** The initiator(s) to add to the new initiator group. Use
 Fibre Channel (FC) world wide port names (WWPNs), iSCSI qualified names
 (IQNs), and/or iSCSI extended unique identifiers (EUIs) to identify host
 initiators.

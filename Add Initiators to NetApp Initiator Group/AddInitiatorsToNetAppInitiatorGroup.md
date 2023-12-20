@@ -10,13 +10,13 @@ initiators to an existing initiator group.
 ## Workflow inputs
 \* indicates the input is required
 
-**Storage Device\***
+- **Storage Device\***
 
-**Storage Virtual Machine\***
+- **Storage Virtual Machine\***
 
-**Initiator Group\***
+- **Initiator Group\***
 
-**Initiators:** The initiators to add to the initiator group. Use Fibre
+- **Initiators:** The initiators to add to the initiator group. Use Fibre
 Channel (FC) world wide port names (WWPNs), iSCSI qualified names
 (IQNs), and/or iSCSI extended unique identifiers (EUIs) to identify host
 initiators.

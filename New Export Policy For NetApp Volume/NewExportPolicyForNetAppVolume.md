@@ -10,28 +10,28 @@ policy and then adds the export policy to the specified volume.
 ## Workflow inputs
 \* indicates the input is required
 
-**Storage Device\***
+- **Storage Device\***
 
-**Storage Virtual Machine\***
+- **Storage Virtual Machine\***
 
-**Volume\***
+- **Volume\***
 
-**Export Policy Name\*:** Name of the new export policy. An export
+- **Export Policy Name\*:** Name of the new export policy. An export
 policy rule will be added using the inputs listed below.
 
-**Export Policy Protocols\*:** Protocol(s) for which you want to apply
+- **Export Policy Protocols\*:** Protocol(s) for which you want to apply
 the export policy rule. Default is NFS.
 
-**Client Match List\*:** Match string(s) specifying the client or
+- **Client Match List\*:** Match string(s) specifying the client or
 clients to grant access to in the export policy rule.
 
-**SuperUser Security Type\*:** Security type(s) for superuser access to
+- **SuperUser Security Type\*:** Security type(s) for superuser access to
 files. Default is sys.
 
-**Read-only Policy Rules\*:** Security type(s) for read-only access to
+- **Read-only Policy Rules\*:** Security type(s) for read-only access to
 volumes that use the export rule. Default is sys.
 
-**Read-write Policy Rules\*:** Security type(s) for read-write access to
+- **Read-write Policy Rules\*:** Security type(s) for read-write access to
 volumes that use the export rule. Default is sys.
 
 ## Example workflow execution

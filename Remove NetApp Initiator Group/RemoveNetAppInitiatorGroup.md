@@ -8,13 +8,13 @@ group.
 ![](../images/RemoveNetAppInitiatorGroup/01a04c4bb4612f28c42aae9bfbf5e3edb70064fd.png)
 
 ## Workflow inputs
-\* indicates the input is required
+The following are required inputs:
 
-**Storage Device\***
+- **Storage Device\***
 
-**Storage Virtual Machine\***
+- **Storage Virtual Machine\***
 
-**Initiator Group\***
+- **Initiator Group\***
 
 ## Example workflow execution
 

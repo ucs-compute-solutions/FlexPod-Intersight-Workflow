@@ -13,25 +13,25 @@ updated capacity is visible to all hosts connected to the datastore.
 
 ### Hypervisor inputs:
 
-**Hypervisor Manager\*:** Hypervisor manager managing the cluster in the
+- **Hypervisor Manager\*:** Hypervisor manager managing the cluster in the
 datacenter.
 
-**Datacenter\*:** Datacenter associated with the cluster where the
+- **Datacenter\*:** Datacenter associated with the cluster where the
 datastore is hosted.
 
-**Cluster:** Cluster on which the datastore is hosted.
+- **Cluster:** Cluster on which the datastore is hosted.
 
-**Host:** Host on which the datastore is hosted. If the cluster is
+- **Host:** Host on which the datastore is hosted. If the cluster is
 specified, the host parameter will be ignored.
 
-**Datastore\*:** Name of the datastore for which capacity is to be
+- **Datastore\*:** Name of the datastore for which capacity is to be
 updated
 
-**Datastore Capacity\*:** New size of the datastore
+- **Datastore Capacity\*:** New size of the datastore
 
 ### Storage inputs:
 
-**Storage Device\***
+- **Storage Device\***
 
 ## Example workflow execution
 

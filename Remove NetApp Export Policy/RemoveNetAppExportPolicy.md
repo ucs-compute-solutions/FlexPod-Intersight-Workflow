@@ -8,15 +8,15 @@ volume and deletes the export policy.
 ![](../images/RemoveNetAppExportPolicy/fd51898fdd73f21bb23236ba96f66f6b5ce800f3.png)
 
 ## Workflow inputs
-\* indicates the input is required
+The following are required inputs:
 
-**Storage Device\***
+- **Storage Device\***
 
-**Storage Virtual Machine\***
+- **Storage Virtual Machine\***
 
-**Volume\***
+- **Volume\***
 
-**Export Policy\***
+- **Export Policy\***
 
 ## Example workflow execution
 

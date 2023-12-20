@@ -13,25 +13,25 @@ datastore to utilize the additional capacity.
 
 ### Hypervisor inputs:
 
-**Hypervisor Manager\*:** Hypervisor manager managing the cluster in the
+- **Hypervisor Manager\*:** Hypervisor manager managing the cluster in the
 datacenter.
 
-**Datacenter\*:** Datacenter associated with the cluster where the
+- **Datacenter\*:** Datacenter associated with the cluster where the
 datastore is hosted.
 
-**Cluster:** Cluster on which the datastore will be hosted.
+- **Cluster:** Cluster on which the datastore will be hosted.
 
-**Host:** Host on which the datastore will be hosted. If the cluster is
+- **Host:** Host on which the datastore will be hosted. If the cluster is
 specified, the host parameter will be ignored.
 
-**Datastore\*:** Name of the datastore for which capacity is to be
+- **Datastore\*:** Name of the datastore for which capacity is to be
 expanded
 
-**Datastore Capacity\*:** New size of the datastore
+- **Datastore Capacity\*:** New size of the datastore
 
 ### Storage inputs:
 
-**Storage Device\***
+- **Storage Device\***
 
 ## Example workflow execution
 

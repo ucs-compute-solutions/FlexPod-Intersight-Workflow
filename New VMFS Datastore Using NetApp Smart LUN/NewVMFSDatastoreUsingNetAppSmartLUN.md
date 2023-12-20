@@ -13,32 +13,32 @@ created using the New NetApp Smart LUN task.
 
 ### Hypervisor inputs:
 
-**Hypervisor Manager\*:** Hypervisor manager managing the cluster in the
+- **Hypervisor Manager\*:** Hypervisor manager managing the cluster in the
 datacenter.
 
-**Datacenter\*:** Datacenter associated with the cluster where the
+- **Datacenter\*:** Datacenter associated with the cluster where the
 datastore will be hosted.
 
-**Cluster:** Cluster on which the datastore will be hosted.
+- **Cluster:** Cluster on which the datastore will be hosted.
 
-**Host:** Host on which the datastore will be hosted. If the cluster is
+- **Host:** Host on which the datastore will be hosted. If the cluster is
 specified, the host parameter will be ignored.
 
-**Datastore Name\*:** Name of the datastore. The volume and LUN created
+- **Datastore Name\*:** Name of the datastore. The volume and LUN created
 will be named the same as the datastore name and the LUN path will be at
 /vol/datastore_name/datastore_name.
 
-**Datastore Capacity\*:** Size of the datastore
+- **Datastore Capacity\*:** Size of the datastore.
 
-**Datastore Type\*:** Type of the datastore (VMFS version 5 or 6)
+- **Datastore Type\*:** Type of the datastore (VMFS version 5 or 6).
 
 ### Storage inputs:
 
-**Storage Device\***
+- **Storage Device\***
 
-**Storage Virtual Machine\***
+- **Storage Virtual Machine\***
 
-**Performance Service Level\*:** Performance service levels represent
+- **Performance Service Level\*:** Performance service levels represent
 the performance expectations of the clients or applications using the
 storage system. The selection of a performance service level indicates
 the location of the new storage in the storage device and the QoS policy
@@ -51,7 +51,7 @@ valid for the storage platform, the task will fail with an error
 message. Use the 'None' option if the storage virtual machine already
 has a QoS policy group.
 
-**Initiator Group\***: You can select an initiator group or create a new
+- **Initiator Group\***: You can select an initiator group or create a new
 one. If you create a new initiator group, you need to provide the
 following inputs.
 
@@ -69,7 +69,7 @@ following inputs.
     qualified names (IQNs), and/or iSCSI extended unique identifiers
     (EUIs) to identify host initiators.
 
-**Enable Local Snapshot Copies:** Select this checkbox to enable local
+- **Enable Local Snapshot Copies:** Select this checkbox to enable local
 snapshot copies using the default snapshot policy.
 
 ## Example workflow execution
@@ -91,7 +91,9 @@ snapshot copies using the default snapshot policy.
 ![](../images/NewVMFSDatastoreUsingNetAppSmartLUN/135d92dceab7546dcf69f91e6daf62fe03ecb935.png)
 
 3.  Select storage device, storage virtual machine, and performance
-    service level. **NOTE:** If the selected performance service level is
+    service level.
+
+    **NOTE:** If the selected performance service level is
     not valid for the storage platform, the task will fail with an error
     message.
 

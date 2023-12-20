@@ -10,24 +10,24 @@ interface.
 ## Workflow inputs
 \* indicates the input is required
 
-**Storage Device\***
+- **Storage Device\***
 
-**Storage Virtual Machine\***
+- **Storage Virtual Machine\***
 
-**Interface Name\*:** Name for the new iSCSI data interface.
+- **Interface Name\*:** Name for the new iSCSI data interface.
 
-**Home Node\*:** Home node is the node to which the interface returns
+- **Home Node\*:** Home node is the node to which the interface returns
 when the network interface revert command is run.
 
-**Home Port:** Home port is the port to which the interface returns when
+- **Home Port:** Home port is the port to which the interface returns when
 the network interface revert command is run.
 
-**Broadcast Domain:** Broadcast domain contains the home port of the
+- **Broadcast Domain:** Broadcast domain contains the home port of the
 logical interface.
 
-**Interface IP Address\*:** IP address for the interface
+- **Interface IP Address\*:** IP address for the interface
 
-**Interface Netmask\*:** Netmask for the interface
+- **Interface Netmask\*:** Netmask for the interface
 
 ## Example workflow execution
 

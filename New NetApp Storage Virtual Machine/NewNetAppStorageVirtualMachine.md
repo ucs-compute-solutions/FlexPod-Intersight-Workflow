@@ -1,4 +1,4 @@
-New NetApp Storage Virtual Machine Workflow
+# New NetApp Storage Virtual Machine Workflow
 
 ## Workflow description and tasks
 
@@ -10,21 +10,21 @@ virtual machine.
 ## Workflow inputs
 \* indicates the input is required
 
-**Storage Device\***
+- **Storage Device\***
 
-**Storage Virtual Machine Name\*:** Name for the new storage virtual
+- **Storage Virtual Machine Name\*:** Name for the new storage virtual.
 machine
 
-**Storage VM Protocols\*:** Protocols to enable
+- **Storage VM Protocols\*:** Protocols to enable.
 
-**Manage Administrator Account: vsadmin:** Select this check box if you
+- **Manage Administrator Account: vsadmin:** Select this check box if you
 want to manage the storage VM administrator account. If selected,
 provide the password for the vsadmin account. To create a storage VM
 management interface, select the 'Create Management Interface' check box
 and provide an interface name, IP address, subnet mask, broadcast
 domain, and home node name.
 
-**Route Destination IPv4 Gateway:** The IP address of the gateway router
+- **Route Destination IPv4 Gateway:** The IP address of the gateway router
 leading to the destination.
 
 ## Example workflow execution
@@ -53,7 +53,7 @@ leading to the destination.
 
 ![](../images/NewNetAppStorageVirtualMachine/c6423df0c89bbfa6a924ed36a56881250ae3e067.png)
 
-4.  Review your input selections for correctness, then click Execute.
+4.  Review your input selections for correctness, then click **Execute**.
 
 5.  View workflow execution details on the History tab.
 

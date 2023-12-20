@@ -11,17 +11,17 @@ interface using either Fibre Channel Protocol or NVMe over Fibre Channel
 ## Workflow inputs
 \* indicates the input is required
 
-**Storage Device\***
+- **Storage Device\***
 
-**Storage Virtual Machine\***
+- **Storage Virtual Machine\***
 
-**Interface Name\*:** Name for the new FC data interface.
+- **Interface Name\*:** Name for the new FC data interface.
 
-**Data Protocol\***: Data protocol that can be served by the interface.
+- **Data Protocol\***: Data protocol that can be served by the interface.
 
-**Location Port Name\*:** FC port on which to create the interface.
+- **Location Port Name\*:** FC port on which to create the interface.
 
-**Location Port Node Name\*:** Port node being used to create the
+- **Location Port Node Name\*:** Port node being used to create the
 interface.
 
 ## Example workflow execution
