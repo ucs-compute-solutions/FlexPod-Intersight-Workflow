@@ -12,8 +12,8 @@ virtual machine.
 
 - **Storage Device\***
 
-- **Storage Virtual Machine Name\*:** Name for the new storage virtual.
-machine
+- **Storage Virtual Machine Name\*:** Name for the new storage virtual
+machine.
 
 - **Storage VM Protocols\*:** Protocols to enable.
 

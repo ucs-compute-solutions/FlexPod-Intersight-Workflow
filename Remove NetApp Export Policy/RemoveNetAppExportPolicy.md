@@ -24,9 +24,9 @@ The following are required inputs:
 
 ![](../images/RemoveNetAppExportPolicy/38f15bb132dcd80fcae94a545a7cca20bcf74c98.png)
 
-![](../images/RemoveNetAppExportPolicy/13287707851fe2b3cab9902ee2d9399a1285931b.png)
-
 ![](../images/RemoveNetAppExportPolicy/24141b406df4105e822708bbe3632fc28ba10175.png)
+
+![](../images/RemoveNetAppExportPolicy/13287707851fe2b3cab9902ee2d9399a1285931b.png)
 
 2.  Select the export policy to
     remove.

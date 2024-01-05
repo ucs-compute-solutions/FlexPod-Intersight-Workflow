@@ -25,9 +25,9 @@ datastore is hosted.
 specified, the host parameter will be ignored.
 
 - **Datastore\*:** Name of the datastore for which capacity is to be
-updated
+updated.
 
-- **Datastore Capacity\*:** New size of the datastore
+- **Datastore Capacity\*:** New size of the datastore.
 
 ### Storage inputs:
 

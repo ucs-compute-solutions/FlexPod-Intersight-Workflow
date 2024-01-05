@@ -27,7 +27,7 @@ datastore is hosted.
 - **Host:** Host on which the datastore is hosted. If the cluster is
 specified, the host parameter will be ignored.
 
-- **Datastore\*:** Name of the datastore to be removed
+- **Datastore\*:** Name of the datastore to be removed.
 
 ### Storage inputs:
 

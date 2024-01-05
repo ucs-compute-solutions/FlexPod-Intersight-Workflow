@@ -22,13 +22,12 @@ datacenter.
 - **Datacenter\*:** Datacenter associated with the cluster where the
 datastore is hosted.
 
-- **Cluster:** Cluster on which the datastore will be hosted.
+- **Cluster:** Cluster on which the datastore is hosted.
 
-- **Host:** Host on which the datastore will be hosted. If the cluster is
+- **Host:** Host on which the datastore is hosted. If the cluster is
 specified, the host parameter will be ignored.
 
-- **Datastore\*:** Name of the datastore for which capacity is to be
-expanded
+- **Datastore\*:** Name of the datastore to remove.
 
 ### Storage inputs:
 
@@ -39,9 +38,14 @@ expanded
 1.  Select the hypervisor manager, datacenter, cluster or host, and the
     datastore that is to be removed.
 
-![](../images/RemoveVMFSDatastoreUsingNetAppSmartLUN/905ac6d7b521f9a48b4c8745c468a834b44e424a.png)![](../images/RemoveVMFSDatastoreUsingNetAppSmartLUN/6edd5f9494b55accf15a5d47721b379bd55ba213.png)
+![](../images/RemoveVMFSDatastoreUsingNetAppSmartLUN/6edd5f9494b55accf15a5d47721b379bd55ba213.png)
 
-![](../images/RemoveVMFSDatastoreUsingNetAppSmartLUN/f3e57536048066444f7eca5c3cc3a2d86d23a307.png)![](../images/RemoveVMFSDatastoreUsingNetAppSmartLUN/d3410d85cb133ec2122d4ef708e732602b3fdde8.png)
+![](../images/RemoveVMFSDatastoreUsingNetAppSmartLUN/905ac6d7b521f9a48b4c8745c468a834b44e424a.png)
+
+![](../images/RemoveVMFSDatastoreUsingNetAppSmartLUN/d3410d85cb133ec2122d4ef708e732602b3fdde8.png)
+
+![](../images/RemoveVMFSDatastoreUsingNetAppSmartLUN/f3e57536048066444f7eca5c3cc3a2d86d23a307.png)
+
 
 2.  Select the storage device.
 

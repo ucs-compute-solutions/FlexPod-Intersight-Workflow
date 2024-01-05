@@ -15,9 +15,9 @@ Please check the following relevant prerequisites to ensure that you have met th
 
 - You have claimed Intersight Assist along with your FlexPod components: Cisco UCS Fabric Interconnects, Cisco Nexus switches, Cisco MDS switches, and NetApp Active IQ Unified Manager with registered NetApp ONTAP storage devices.
 
-- You have downloaded the JSON files for the workflows from this repository and imported them into Cisco Intersight Cloud Orchestrator. Please see the resource below for more information.
-   - [Importing a workflow](https://intersight.com/help/saas/resources/Workflow_Designer#importing_a_workflow)
-   - [Import Workflow Instructions](ImportWorkflowInstructions.md)
+- You have downloaded the JSON files for the workflows from this repository and imported them into Cisco Intersight Cloud Orchestrator. Please see the resources below for more information.
+   - [Cisco Intersight Help Center information on importing a workflow](https://intersight.com/help/saas/resources/Workflow_Designer#importing_a_workflow)
+   - [Workflow import example](WorkflowImport.md)
 
 
 # Workflows
