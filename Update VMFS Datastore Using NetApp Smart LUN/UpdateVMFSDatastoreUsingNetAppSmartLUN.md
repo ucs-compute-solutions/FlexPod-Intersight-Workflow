@@ -59,3 +59,5 @@ expanded.
 5.  View workflow execution details on the History tab.
 
 ![](../images/UpdateVMFSDatastoreUsingNetAppSmartLUN/02bff92a0066d6c1dc4aeaf31daad4cee679a8ce.png)
+
+**NOTE:** This workflow is only for expanding a VMFS datastore and the underlying storage. If you attempt to use it to shrink the VMFS datastore, the workflow will fail at the Expand NetApp LUN task with the following error message: Reducing the size of a LUN might cause permanent data loss or corruption and is not supported by the LUN REST API. The ONTAP command "lun resize" can be used to reduce the LUN size.
