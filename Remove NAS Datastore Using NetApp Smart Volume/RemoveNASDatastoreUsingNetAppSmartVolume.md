@@ -2,12 +2,7 @@
 
 ## Workflow description and tasks
 
-The Remove NAS Datastore Using NetApp Smart Volume workflow removes a
-NAS datastore and the underlying storage volume using the Remove NetApp
-NAS Smart Volume task. When a datastore is removed from a host, it is
-destroyed and will disappear from all hosts that have access to it. If a
-cluster name is provided, the datastore is removed from all hosts in the
-cluster.
+The Remove NAS Datastore Using NetApp Smart Volume workflow removes a NAS datastore from all hosts in the cluster. The underlying storage volume is removed using the Remove NetApp NAS Smart Volume task.
 
 ![](../images/RemoveNASDatastoreUsingNetAppSmartVolume/4b6d05d1bc4c0468c2f1bde9c98a4576db0af9d6.png)
 
@@ -22,10 +17,7 @@ datacenter.
 - **Datacenter\*:** Datacenter associated with the cluster where the
 datastore is hosted.
 
-- **Cluster:** Cluster on which the datastore is hosted.
-
-- **Host:** Host on which the datastore is hosted. If the cluster is
-specified, the host parameter will be ignored.
+- **Cluster\*:** Cluster on which the datastore is hosted.
 
 - **Datastore\*:** Name of the datastore to be removed.
 

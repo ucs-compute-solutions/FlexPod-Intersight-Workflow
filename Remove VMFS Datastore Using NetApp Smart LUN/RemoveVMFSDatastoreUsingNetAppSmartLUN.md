@@ -3,11 +3,7 @@
 ## Workflow description and tasks
 
 The Remove VMFS Datastore Using NetApp Smart LUN workflow removes a VMFS
-datastore and the underlying storage volume and LUN using the Remove
-NetApp Smart LUN task. When a datastore is removed from a host, it is
-destroyed and will disappear from all hosts that have access to it. If a
-cluster name is provided, the datastore is removed from all hosts in the
-cluster.
+datastore from all hosts in the cluster. The underlying storage volume and LUN are removed using the Remove NetApp Smart LUN task. 
 
 ![](../images/RemoveVMFSDatastoreUsingNetAppSmartLUN/9ec006cd24178f4d409298ad8916bb0b70fbf534.png)
 
@@ -22,10 +18,7 @@ datacenter.
 - **Datacenter\*:** Datacenter associated with the cluster where the
 datastore is hosted.
 
-- **Cluster:** Cluster on which the datastore is hosted.
-
-- **Host:** Host on which the datastore is hosted. If the cluster is
-specified, the host parameter will be ignored.
+- **Cluster\*:** Cluster on which the datastore is hosted.
 
 - **Datastore\*:** Name of the datastore to remove.
 
