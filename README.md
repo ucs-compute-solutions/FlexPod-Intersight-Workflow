@@ -25,7 +25,7 @@ Please check the following relevant prerequisites to ensure that you have met th
 To locate a NetApp workflow after importing it, you can find it on the My Workflows tab or add a filter for ```Display Name: NetApp```.
 
 To execute a workflow directly, select the **```...```** in the last column of the workflow's row, and then, select **Execute**.
-To view the workflow first, click on the workflow link under the Display Name column. Then, you can click the Execute button in the the right-hand corner to execute the workflow.
+To view the workflow first, click on the workflow link under the Display Name column. Then, you can click the Execute button in the right-hand corner to execute the workflow.
 
 Documentation links for each of the workflows are provided below.
 
